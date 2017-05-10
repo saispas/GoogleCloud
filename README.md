@@ -3,9 +3,9 @@
 
 1、首先使用WEB自带SSH连接上去，依次输入以下命令 
  
- sudo -i 
+    sudo -i 
   
- vi /etc/ssh/sshd_config
+    vi /etc/ssh/sshd_config
   
 2、找到
 
@@ -13,7 +13,7 @@
     
     PasswordAuthentication no 改成 PasswordAuthentication yes
     
-按ESC 输入:wq 保存退出
+按 ESC 输入 :wq 保存退出
 
 3、重启SSH服务
 
