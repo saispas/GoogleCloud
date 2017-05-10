@@ -20,8 +20,10 @@
     输入 service sshd restart
 
 重新使用WEB自带的SSH连接上去，依次以下命令
+
     sudo -i
     passwd
+    
 会提示直接输入新密码
 再输入一次新密码
 两次新密码输入确认后，密码提示成功。
